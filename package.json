@@ -17,6 +17,9 @@
     "url": "https://github.com/fergcb/placeholder/issues"
   },
   "homepage": "https://github.com/fergcb/placeholder#readme",
+  "engines": {
+    "node": "14.x"
+  },
   "dependencies": {
     "canvas": "^2.6.1",
     "cors": "^2.8.5",

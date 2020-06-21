@@ -131,5 +131,5 @@ app.get(/^(?:\/(\d+(?:x\d+)?))?(?:\/((?:[^/\\]+)))?(?:\/((?:[0-9A-Z]{3}){1,2}))?
 
 
 // Start the web server
-const port = 80
+const port = process.env.PORT || 80
 app.listen(port, () => console.log(`Listening on ${port}`))

@@ -47,4 +47,4 @@ The image URI consists of the domain name, followed by any of the following para
 - Fergus Bentley <fergusbentley@gmail.com> (fergcb.uk)
 
 ## License
-Cadigan is licensed under the GNU Lesser General Purpose License 3.0. See [LICENSE.md](./LICENSE.md) for more information.
+Cadigan is licensed under the GNU Lesser General Purpose License 3.0. See [LICENSE](./LICENSE) for more information.

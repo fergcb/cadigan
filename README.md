@@ -36,21 +36,21 @@ The image URI consists of the domain name, followed by any of the following para
 
 ![/](http://cadigan.fergcb.uk/)
 
-- `/512`
+- `/64`
 
-![/512](http://cadigan.fergcb.uk/512)
+![/64](http://cadigan.fergcb.uk/64)
 
-- `/256x128/Example/`
+- `/128x64/Example/`
 
-![/256x128/Example/](http://cadigan.fergcb.uk/256x128/Example/)
+![/128x64/Example/](http://cadigan.fergcb.uk/128x64/Example/)
 
-- `/256/Hello,%20World!/f00`
+- `/64/Hello,%20World!/f000`
 
-![/256/Hello,%20World!/f00](http://cadigan.fergcb.uk/256/Hello,%20World!/f00)
+![/64/Hello,%20World!/f00](http://cadigan.fergcb.uk/64/Hello,%20World!/f00)
 
-- `/64/FB/5af2db/286`
+- `/FB/5af2db/286`
 
-![/64/FB/5af2db/286](http://cadigan.fergcb.uk/64/FB/5af2db/286)
+![/FB/5af2db/286](http://cadigan.fergcb.uk/FB/5af2db/286)
 
 
 ## Technologies

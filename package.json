@@ -1,22 +1,23 @@
 {
-  "name": "placeholder",
+  "name": "cadigan",
   "version": "0.1.0",
   "description": "An API for serving custom placeholder images for web app mock-ups",
   "main": "src/index.js",
   "scripts": {
-    "start": "node src/index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node ./src/index.js",
+    "start-dev": "nodemon --exec \"npm run --silent lint && npm start --silent\"",
+    "lint": "npx eslint src/"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/fergcb/placeholder.git"
+    "url": "git+https://github.com/fergcb/cadigan.git"
   },
   "author": "Fergus Bentley <fergusbentley@gmail.com> (https://fergcb.uk/)",
   "license": "LGPL-3.0",
   "bugs": {
-    "url": "https://github.com/fergcb/placeholder/issues"
+    "url": "https://github.com/fergcb/cadigan/issues"
   },
-  "homepage": "https://github.com/fergcb/placeholder#readme",
+  "homepage": "https://github.com/fergcb/cadigan#readme",
   "engines": {
     "node": "14.x"
   },
@@ -26,6 +27,7 @@
     "express": "^4.17.1"
   },
   "devDependencies": {
+    "eslint": "^7.4.0",
     "nodemon": "^2.0.4"
   }
 }

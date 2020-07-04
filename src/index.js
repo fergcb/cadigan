@@ -46,7 +46,7 @@ function draw(width, height, text, bgColor, textColor) {
         y += fontSize
     }
 
-    return canvas;
+    return canvas
 }
 
 
@@ -73,7 +73,7 @@ function wrapText(text, ctx, maxWidth) {
     }
     lines.push(currentLine.trim())
 
-    return lines.filter((l) => l.length > 0);
+    return lines.filter((l) => l.length > 0)
 }
 
 
@@ -86,7 +86,7 @@ const app = express()
  * Generate a 64x64 favicon using the placeholder generator
  */
 app.get('/favicon.ico', (req, res) => {
-    draw(64, 64, 'PH', 'ff00ff', '000').pngStream().pipe(res);
+    draw(64, 64, 'PH', 'ff00ff', '000').pngStream().pipe(res)
 })
 
 
@@ -111,7 +111,7 @@ app.get(/^(?:\/(\d+(?:x\d+)?))?(?:\/((?:[^/\\]+)))?(?:\/((?:[0-9A-Z]{3}){1,2}))?
     let size = [128, 128] // Default to 128x128 square
     // If a size string is provided, parse it into a width and height
     if (req.params[0]) {
-        const sizeStr = req.params[0];
+        const sizeStr = req.params[0]
         if (sizeStr.includes('x')) {
             size = sizeStr.split('x').map((x) => parseInt(x, 10))
         } else {
@@ -119,10 +119,10 @@ app.get(/^(?:\/(\d+(?:x\d+)?))?(?:\/((?:[^/\\]+)))?(?:\/((?:[0-9A-Z]{3}){1,2}))?
             size = [sideLength, sideLength]
         }
     }
-    const [width, height] = size;
+    const [width, height] = size
 
     // Create the requested image
-    const image = draw(width, height, req.params[1], req.params[2], req.params[3]);
+    const image = draw(width, height, req.params[1], req.params[2], req.params[3])
     // Serve the image
     res.setHeader('Content-Type', 'image/png')
     image.pngStream().pipe(res)

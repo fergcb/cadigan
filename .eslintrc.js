@@ -9,9 +9,14 @@ module.exports = {
         'ecmaVersion': 11
     },
     'rules': {
+		'dot-location': [
+			'error',
+			'property'
+		],
         'indent': [
             'error',
-            4
+			4,
+			{ 'MemberExpression': 0, 'VariableDeclarator': 'first' }
         ],
         'linebreak-style': [
             'error',

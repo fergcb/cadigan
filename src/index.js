@@ -24,7 +24,7 @@ function draw(width, height, text, bgColor, textColor) {
 
     // Init Canvas
     const canvas = new Canvas(width, height),
-        ctx = canvas.getContext('2d')
+          ctx = canvas.getContext('2d')
 
     // Background
     ctx.fillStyle = bgColor

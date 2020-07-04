@@ -6,8 +6,8 @@ Cadigan is a web API that serves placeholder .PNG images for designing and proto
 - Fast placeholder PNG images
 - Custom size, colour and placeholder text
 ### Upcoming Features
-- Custom size and family
-- New shapes such as ellipses and rounded rectangles
+- Custom font size and family
+- New background shapes, such as ellipses and rounded rectangles
 - A choice of image formats (JPEG, GIF, SVG)
 
 ## Getting Started

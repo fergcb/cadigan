@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "description": "An API for serving custom placeholder images for web app mock-ups",
   "main": "src/index.js",
+  "type": "module",
   "scripts": {
     "start": "node ./src/index.js",
     "start-dev": "nodemon --exec \"npm run --silent lint && npm start --silent\"",

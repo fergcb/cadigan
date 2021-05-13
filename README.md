@@ -56,9 +56,9 @@ The image URI consists of the domain name, followed by any of the following para
 ## Technologies
 - [Node.js](https://nodejs.org/en/) (JavaScript runtime)
 - [Express](https://expressjs.com) (Web framework)
-- [node-canvas]() (Canvas Web API for Node.js)
+- [node-canvas](https://www.npmjs.com/package/canvas) (Canvas Web API for Node.js)
 
-## Contributers
+## Contributors
 - Fergus Bentley <fergusbentley@gmail.com> (fergcb.uk)
 
 ## License
